@@ -1,27 +1,36 @@
 # TwoNumberSum
 
+
+
+## Code Challenge: Two Number Sum
+
+Write a function that takes in a non empty array of distinct integers and an integer representing a target sum. If any two numbers in the input array sum up to the target sum, the function should return them in an array. If no two numbers sum up to the target sum, the function should return an empty array. Assume that there will be **at most one pair of numbers** summing up to the target sum.
+
+#
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
 
-## Development server
+**Development server**
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+**Running unit tests**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng test --code-coverage` to execute the unit tests.
 
-## Build
+#
+## Testcases
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Sample input 1: [3,5,-4,8,11,1,-1,6], 10
 
-## Running unit tests
+Sample output 1: [-1,11]
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Sample input 2: [2,-7,4,8,-11],56
 
-## Running end-to-end tests
+Sample output 2: []
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+![alt text](https://fotos.subefotos.com/6c876205c8a118261931e69ca5df57f3o.jpg)
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
